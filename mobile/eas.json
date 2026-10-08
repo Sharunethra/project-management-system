@@ -13,7 +13,7 @@
         "buildType": "apk"
       },
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://project-management-system-jjm1.onrender.com/api"
+        "EXPO_PUBLIC_API_URL": "https://project-management-system-ijm1.onrender.com/api"
       }
     },
     "production": {

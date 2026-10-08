@@ -9,7 +9,7 @@ declare const process: {
 };
 
 const PRODUCTION_API_URL =
-  'https://project-management-system-jjm1.onrender.com/api';
+  'https://project-management-system-ijm1.onrender.com/api';
 
 const LOCAL_API_URL =
   Platform.OS === 'android'
