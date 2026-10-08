@@ -8,5 +8,6 @@ const router = Router();
 router.use(authenticateToken);
 
 router.get('/', getDashboardStats);
+router.get('/stats', getDashboardStats);
 
 export default router;
