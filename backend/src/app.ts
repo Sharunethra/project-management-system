@@ -28,6 +28,22 @@ if (process.env.NODE_ENV !== 'test') {
   app.use(morgan('dev'));
 }
 
+// Root health check endpoints for Render, load balancers, and cloud monitoring
+app.get('/', (req, res) => {
+  res.status(200).json({
+    status: 'ok',
+    message: 'PMS API is running',
+    timestamp: new Date().toISOString(),
+  });
+});
+
+app.get('/health', (req, res) => {
+  res.status(200).json({
+    status: 'ok',
+    timestamp: new Date().toISOString(),
+  });
+});
+
 // Routes
 app.use('/api', routes);
 
