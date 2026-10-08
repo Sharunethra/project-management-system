@@ -4,7 +4,6 @@
     "slug": "promanage",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
       "backgroundColor": "#0f172a"
@@ -21,10 +20,14 @@
         "INTERNET"
       ]
     },
+    "plugins": [
+      "expo-asset"
+    ],
     "extra": {
       "eas": {
-        "projectId": "pms-unified-app"
+        "projectId": "6cd5cd17-b310-410f-885d-97ff2c439f5a"
       }
-    }
+    },
+    "owner": "sharu_nethra"
   }
 }
